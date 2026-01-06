@@ -143,10 +143,10 @@ docker pull inferflux/patient-management-system
 
 ### Run the Docker Container
 ```bash
-docker run -d -p 8080:8080 inferflux/patient-management-system
+docker run -d -p 8000:8000 inferflux/patient-management-system
 ```
 
-The application will be accessible at `http://localhost:8080`.
+The application will be accessible at `http://localhost:8000`.
 
 ---
 ## 👨‍💻 Author
