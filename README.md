@@ -1,4 +1,3 @@
-
 # 🏥 FastAPI Patient Management System
 
 A complete **FastAPI-based Patient Management System** demonstrating real-world REST API development using **FastAPI + Pydantic**.  
@@ -133,11 +132,27 @@ This project is ideal for:
 
 ---
 
+## 🐳 Docker Usage
+
+You can use the pre-built Docker image for this project:
+
+### Pull the Docker Image
+```bash
+docker pull inferflux/patient-management-system
+```
+
+### Run the Docker Container
+```bash
+docker run -d -p 8080:8080 inferflux/patient-management-system
+```
+
+The application will be accessible at `http://localhost:8080`.
+
+---
 ## 👨‍💻 Author
 
 **Saikat Santra**  
 M.Tech, IIT Kharagpur  
-
 ---
 
 ⭐ If you like this project, give it a star on GitHub!
